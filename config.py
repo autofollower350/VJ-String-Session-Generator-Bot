@@ -1,6 +1,6 @@
 # Telegram Account Api Id And Api Hash
-API_ID = 12345678          # यहाँ अपनी API ID लिखें (नंबर में)
-API_HASH = "abc123xyz"    # यहाँ अपना API HASH लिखें (स्ट्रिंग में)
+API_ID = 28590286          # यहाँ अपनी API ID लिखें (नंबर में)
+API_HASH = "6a68cc6b41219dc57b7a52914032f92f"    # यहाँ अपना API HASH लिखें (स्ट्रिंग में)
 
 # Your Main Bot Token 
 BOT_TOKEN = "7936101320:AAGTHSCteVyYUzPb-snNWXDn9MxQDZUXs1M" # यहाँ अपना बोट टोकन लिखें
