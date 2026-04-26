@@ -1,20 +1,16 @@
-from os import environ
-
 # Telegram Account Api Id And Api Hash
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
+API_ID = 12345678          # यहाँ अपनी API ID लिखें (नंबर में)
+API_HASH = "abc123xyz"    # यहाँ अपना API HASH लिखें (स्ट्रिंग में)
 
 # Your Main Bot Token 
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = "7936101320:AAGTHSCteVyYUzPb-snNWXDn9MxQDZUXs1M" # यहाँ अपना बोट टोकन लिखें
 
 # Owner ID For Broadcasting 
-OWNER_ID = int(environ.get("OWNER_ID", "")) # Owner Id or Admin Id
+OWNER_ID = 987654321       # यहाँ अपनी Telegram ID लिखें
 
-# Give Your Force Subscribe Channel Id Below And Make Bot Admin With Full Right.
-F_SUB = environ.get("F_SUB", "")
 
-# Mongodb Database Uri For User Data Store 
-MONGO_DB_URI = environ.get("MONGO_DB_URI", "")
+# Mongodb Database Uri
+MONGO_DB_URI = "mongodb+srv://Kailash979933:Lions98@cluster0.af4v4ge.mongodb.net/?appName=Cluster0" # यहाँ अपनी MongoDB URI लिखें
 
 # Port To Run Web Application 
-PORT = int(environ.get('PORT', 8080))
+PORT = 8080
